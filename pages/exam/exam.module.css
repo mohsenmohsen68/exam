@@ -1,0 +1,91 @@
+.body{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #757F9A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.p{
+    color: black;
+    margin: 9px;
+    font-family: 'BYekan';
+    
+}
+.qNumber{
+    width: 65px;
+    height: 65px;
+    border-radius: 90px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.answerContainer{
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.options{
+    width: 90%;
+    border-radius: 20px;
+    background-color: #faf0ca;margin-bottom: 4px;
+}
+
+.questionBox{
+    border: 2px solid white;
+    border-radius: 40px;
+    width: 80%;
+    height: 80%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    /* background-color: blue; */
+    border-radius: 40px;
+    align-items: center;
+    padding: 0px;
+}
+
+.question{
+    font-family: BYekan;
+    font-size: 1.4rem;
+    color: black;
+    width: 100%;
+    padding: 0px;
+    
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 1.4rem; */
+    color: black;
+    border-radius: 90px; 
+    width: 40px;
+    height: 40px; 
+    margin: 9px 4px;
+}
+.submitBtn{
+    margin: 20px;
+    font-size: 1.2rem;
+    font-family: BYekan;
+    
+}
